@@ -1,0 +1,331 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE database SYSTEM "file:///System/Library/DTDs/CoreData.dtd">
+
+<database>
+    <databaseInfo>
+        <version>134481920</version>
+        <UUID>DA48577F-1FA9-41B3-909A-A54F3A1D856A</UUID>
+        <nextObjectID>145</nextObjectID>
+        <metadata>
+            <plist version="1.0">
+                <dict>
+                    <key>NSPersistenceFrameworkVersion</key>
+                    <integer>407</integer>
+                    <key>NSStoreModelVersionHashes</key>
+                    <dict>
+                        <key>Asset</key>
+                        <data>
+		tyQotsO8NDvt1XE0n7ISUiSHKjen9suD2Y4EXGRd56I=
+		</data>
+                        <key>Folder</key>
+                        <data>
+		6AflOHiDpCFdpGAdI0h5t/eykc0B/9DCQLuGcURzmWI=
+		</data>
+                        <key>List</key>
+                        <data>
+		f4nmFsXfFk8V4CSJFMVZeV0UVaEd8d49csHd+yfBOO4=
+		</data>
+                        <key>Search</key>
+                        <data>
+		/Di3N1cVqPFGCxVmoUJ3wQ51ctkJsx+xJfuxAdNqToc=
+		</data>
+                        <key>Snippet</key>
+                        <data>
+		4X/rsY/TA70Pj9wVlkKWOTV5xo34weRxc8LfSD+NVD8=
+		</data>
+                        <key>Tag</key>
+                        <data>
+		tynbpfPyYUACFlBsnCbwUvDeu/vffT4ux8pptcOescY=
+		</data>
+                    </dict>
+                    <key>NSStoreModelVersionHashesVersion</key>
+                    <integer>3</integer>
+                    <key>NSStoreModelVersionIdentifiers</key>
+                    <array>
+                        <string></string>
+                    </array>
+                </dict>
+            </plist>
+        </metadata>
+    </databaseInfo>
+    <object type="SEARCH" id="z102">
+        <attribute name="sort" type="int16">0</attribute>
+        <attribute name="name" type="string">All Snippets</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+    </object>
+    <object type="FOLDER" id="z103">
+        <attribute name="sort" type="int16">6</attribute>
+        <attribute name="name" type="string">Python</attribute>
+        <attribute name="expanded" type="bool">1</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z127 z123"></relationship>
+    </object>
+    <object type="FOLDER" id="z104">
+        <attribute name="sort" type="int16">5</attribute>
+        <attribute name="name" type="string">Ruby</attribute>
+        <attribute name="expanded" type="bool">1</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z126 z121 z122"></relationship>
+    </object>
+    <object type="FOLDER" id="z105">
+        <attribute name="sort" type="int16">4</attribute>
+        <attribute name="name" type="string">HTML</attribute>
+        <attribute name="expanded" type="bool">1</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z125"></relationship>
+    </object>
+    <object type="FOLDER" id="z106">
+        <attribute name="sort" type="int16">3</attribute>
+        <attribute name="name" type="string">JavaScript</attribute>
+        <attribute name="expanded" type="bool">1</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z141"></relationship>
+    </object>
+    <object type="FOLDER" id="z107">
+        <attribute name="sort" type="int16">2</attribute>
+        <attribute name="name" type="string">CSS</attribute>
+        <attribute name="expanded" type="bool">1</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z124 z136"></relationship>
+    </object>
+    <object type="SNIPPET" id="z108">
+        <attribute name="name" type="string">Vagrant - Automator Up</attribute>
+        <attribute name="modified" type="date">368972283.20648699998855590820</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z139"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z109"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z110 z111"></relationship>
+    </object>
+    <object type="ASSET" id="z109">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">vagrant.applescript</attribute>
+        <attribute name="content" type="binary">b24gcnVuIHtpbnB1dCwgcGFyYW1ldGVyc30KICAgIHRlbGwgYXBwbGljYXRpb24gIlRlcm1pbmFs
+IgogICAgICAgIGFjdGl2YXRlCiAgICAgICAgZG8gc2hlbGwgc2NyaXB0ICJjZCA8cGF0aD4vPHRvPi88VmFncmFudD4vPEZvbGRlcj4vOyBzdWRvIHZhZ3JhbnQgdXA7IiB1c2VyIG5hbWUgIm15IHVzZXIiIHBhc3N3b3JkICJteXBhc3N3b3JkIiB3aXRoIGFkbWluaXN0cmF0b3IgcHJpdmlsYWdlcwogICAgZW5kIHRlbGwKZW5kIHJ1bg==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z108"></relationship>
+    </object>
+    <object type="TAG" id="z110">
+        <attribute name="name" type="string">Automator</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z108"></relationship>
+    </object>
+    <object type="TAG" id="z111">
+        <attribute name="name" type="string">AppleScript</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z108"></relationship>
+    </object>
+    <object type="TAG" id="z112">
+        <attribute name="name" type="string">JS SDK</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SNIPPET" id="z113">
+        <attribute name="name" type="string">Facebook - JS SDK init</attribute>
+        <attribute name="modified" type="date">368955524.53258699178695678711</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z116"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z115"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z137 z119 z114"></relationship>
+    </object>
+    <object type="TAG" id="z114">
+        <attribute name="name" type="string">facebook</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z117 z113"></relationship>
+    </object>
+    <object type="ASSET" id="z115">
+        <attribute name="notes" type="string">https://developers.facebook.com/docs/reference/javascript/</attribute>
+        <attribute name="content" type="binary">PGRpdiBpZD0iZmItcm9vdCI+PC9kaXY+CjxzY3JpcHQ+CiAgd2luZG93LmZiQXN5bmNJbml0ID0g
+ZnVuY3Rpb24oKSB7CiAgICBGQi5pbml0KHsKICAgICAgYXBwSWQgICAgICA6ICdZT1VSX0FQUF9JRCcsIC8vIEFwcCBJRAogICAgICBzdGF0dXMgICAgIDogdHJ1ZSwgLy8gY2hlY2sgbG9naW4gc3RhdHVzCiAgICAgIGNvb2tpZSAgICAgOiB0cnVlLCAvLyBlbmFibGUgY29va2llcyB0byBhbGxvdyB0aGUgc2VydmVyIHRvIGFjY2VzcyB0aGUgc2Vzc2lvbgogICAgICB4ZmJtbCAgICAgIDogdHJ1ZSAgLy8gcGFyc2UgWEZCTUwKICAgIH0pOwoKICAgIC8vIEFkZGl0aW9uYWwgaW5pdGlhbGl6YXRpb24gY29kZSBoZXJlCiAgfTsKCiAgLy8gTG9hZCB0aGUgU0RLIEFzeW5jaHJvbm91c2x5CiAgKGZ1bmN0aW9uKGQpewogICAgIHZhciBqcywgaWQgPSAnZmFjZWJvb2stanNzZGsnLCByZWYgPSBkLmdldEVsZW1lbnRzQnlUYWdOYW1lKCdzY3JpcHQnKVswXTsKICAgICBpZiAoZC5nZXRFbGVtZW50QnlJZChpZCkpIHtyZXR1cm47fQogICAgIGpzID0gZC5jcmVhdGVFbGVtZW50KCdzY3JpcHQnKTsganMuaWQgPSBpZDsganMuYXN5bmMgPSB0cnVlOwogICAgIGpzLnNyYyA9ICIvL2Nvbm5lY3QuZmFjZWJvb2submV0L2VuX1VTL2FsbC5qcyI7CiAgICAgcmVmLnBhcmVudE5vZGUuaW5zZXJ0QmVmb3JlKGpzLCByZWYpOwogICB9KGRvY3VtZW50KSk7Cjwvc2NyaXB0Pg==
+</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">facebook-init.js</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z113"></relationship>
+    </object>
+    <object type="LIST" id="z116">
+        <attribute name="sort" type="int16">0</attribute>
+        <attribute name="name" type="string">Facebook</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z141"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z117 z113"></relationship>
+    </object>
+    <object type="SNIPPET" id="z117">
+        <attribute name="name" type="string">Facebook - Feed ui method</attribute>
+        <attribute name="modified" type="date">368955559.42106097936630249023</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z116"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z118"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z137 z119 z114"></relationship>
+    </object>
+    <object type="ASSET" id="z118">
+        <attribute name="notes" type="string">http://developers.facebook.com/docs/reference/javascript/FB.ui/</attribute>
+        <attribute name="content" type="binary">RkIudWkoCiAgewogICAgbWV0aG9kOiAnZmVlZCcsCiAgICBuYW1lOiAnRmFjZWJvb2sgRGlhbG9n
+cycsCiAgICBsaW5rOiAnaHR0cDovL2RldmVsb3BlcnMuZmFjZWJvb2suY29tL2RvY3MvcmVmZXJlbmNlL2RpYWxvZ3MvJywKICAgIHBpY3R1cmU6ICdodHRwOi8vZmJyZWxsLmNvbS9mOC5qcGcnLAogICAgY2FwdGlvbjogJ1JlZmVyZW5jZSBEb2N1bWVudGF0aW9uJywKICAgIGRlc2NyaXB0aW9uOiAnRGlhbG9ncyBwcm92aWRlIGEgc2ltcGxlLCBjb25zaXN0ZW50IGludGVyZmFjZSBmb3IgYXBwbGljYXRpb25zIHRvIGludGVyZmFjZSB3aXRoIHVzZXJzLicKICB9LAogIGZ1bmN0aW9uKHJlc3BvbnNlKSB7CiAgICBpZiAocmVzcG9uc2UgJiYgcmVzcG9uc2UucG9zdF9pZCkgewogICAgICAvLyBwdWJsaXNoZWQKICAgIH0gZWxzZSB7CiAgICAgIC8vIG5vdCBwdWJsaXNoZWQKICAgIH0KICB9Cik7
+</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">facebook-ui.js</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z117"></relationship>
+    </object>
+    <object type="TAG" id="z119">
+        <attribute name="name" type="string">SDK</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z117 z113"></relationship>
+    </object>
+    <object type="TAG" id="z120">
+        <attribute name="name" type="string">Socail</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="LIST" id="z121">
+        <attribute name="sort" type="int16">1</attribute>
+        <attribute name="name" type="string">Rails</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z104"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="LIST" id="z122">
+        <attribute name="sort" type="int16">0</attribute>
+        <attribute name="name" type="string">Sinatra</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z104"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="LIST" id="z123">
+        <attribute name="sort" type="int16">0</attribute>
+        <attribute name="name" type="string">Django</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z103"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="LIST" id="z124">
+        <attribute name="sort" type="int16">0</attribute>
+        <attribute name="name" type="string">CSS3</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z107"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="LIST" id="z125">
+        <attribute name="sort" type="int16">0</attribute>
+        <attribute name="name" type="string">Markup</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z105"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="LIST" id="z126">
+        <attribute name="sort" type="int16">2</attribute>
+        <attribute name="name" type="string">General</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z104"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="LIST" id="z127">
+        <attribute name="sort" type="int16">1</attribute>
+        <attribute name="name" type="string">Snippets</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z103"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="LIST" id="z128">
+        <attribute name="sort" type="int16">1</attribute>
+        <attribute name="name" type="string">Twitter</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z141"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z135 z131"></relationship>
+    </object>
+    <object type="TAG" id="z129">
+        <attribute name="name" type="string">webintents</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z131 z135"></relationship>
+    </object>
+    <object type="TAG" id="z130">
+        <attribute name="name" type="string">Twitter</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z131 z135"></relationship>
+    </object>
+    <object type="SNIPPET" id="z131">
+        <attribute name="name" type="string">Twitter - Web intents</attribute>
+        <attribute name="modified" type="date">368955551.93275398015975952148</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z128"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z132"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z137 z130 z129"></relationship>
+    </object>
+    <object type="ASSET" id="z132">
+        <attribute name="content" type="binary">PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iLy9wbGF0Zm9ybS50d2l0dGVyLmNv
+bS93aWRnZXRzLmpzIj48L3NjcmlwdD4KCjxhIGhyZWY9Imh0dHBzOi8vdHdpdHRlci5jb20vaW50ZW50L3R3ZWV0P2luX3JlcGx5X3RvPTUxMTEzMDI4MjQxOTg5NjMyIj5SZXBseTwvYT4KPGEgaHJlZj0iaHR0cHM6Ly90d2l0dGVyLmNvbS9pbnRlbnQvcmV0d2VldD90d2VldF9pZD01MTExMzAyODI0MTk4OTYzMiI+UmV0d2VldDwvYT4KPGEgaHJlZj0iaHR0cHM6Ly90d2l0dGVyLmNvbS9pbnRlbnQvZmF2b3JpdGU/dHdlZXRfaWQ9NTExMTMwMjgyNDE5ODk2MzIiPkZhdm9yaXRlPC9hPg==
+</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">twitter-webintents.js</attribute>
+        <attribute name="notes" type="string">https://dev.twitter.com/docs/intents</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z131"></relationship>
+    </object>
+    <object type="TAG" id="z133">
+        <attribute name="name" type="string">Tracking</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z135"></relationship>
+    </object>
+    <object type="ASSET" id="z134">
+        <attribute name="content" type="binary">Ly8gTG9nIGFueSBraW5kIG9mIFdlYiBJbnRlbnQgZXZlbnQgdG8gR29vZ2xlIEFuYWx5dGljcwov
+LyBDYXRlZ29yeTogInR3aXR0ZXJfd2ViX2ludGVudHMiCi8vIEFjdGlvbjogSW50ZW50IEV2ZW50IFR5cGUKLy8gTGFiZWw6IElkZW50aWZpZXIgZm9yIGFjdGlvbiB0YWtlbjogdHdlZXRfaWQsIHNjcmVlbl9uYW1lL3VzZXJfaWQsIGNsaWNrIHJlZ2lvbgoKLy8gRmlyc3QsIGxvYWQgdGhlIHdpZGdldHMuanMgZmlsZSBhc3luY2hyb25vdXNseSAKd2luZG93LnR3dHRyID0gKGZ1bmN0aW9uIChkLHMsaWQpIHsKICB2YXIgdCwganMsIGZqcyA9IGQuZ2V0RWxlbWVudHNCeVRhZ05hbWUocylbMF07CiAgaWYgKGQuZ2V0RWxlbWVudEJ5SWQoaWQpKSByZXR1cm47IGpzPWQuY3JlYXRlRWxlbWVudChzKTsganMuaWQ9aWQ7CiAganMuc3JjPSIvL3BsYXRmb3JtLnR3aXR0ZXIuY29tL3dpZGdldHMuanMiOyBmanMucGFyZW50Tm9kZS5pbnNlcnRCZWZvcmUoanMsIGZqcyk7CiAgcmV0dXJuIHdpbmRvdy50d3R0ciB8fCAodCA9IHsgX2U6IFtdLCByZWFkeTogZnVuY3Rpb24oZil7IHQuX2UucHVzaChmKSB9IH0pOwp9KGRvY3VtZW50LCAic2NyaXB0IiwgInR3aXR0ZXItd2pzIikpOwoKLy8gRGVmaW5lIG91ciBjdXN0b20gZXZlbnQgaGFubGRlcnMKZnVuY3Rpb24gY2xpY2tFdmVudFRvQW5hbHl0aWNzKGludGVudF9ldmVudCkgewogIGlmIChpbnRlbnRfZXZlbnQpIHsKICAgIHZhciBsYWJlbCA9IGludGVudF9ldmVudC5yZWdpb247CiAgICBwYWdlVHJhY2tlci5fdHJhY2tFdmVudCgndHdpdHRlcl93ZWJfaW50ZW50cycsIGludGVudF9ldmVudC50eXBlLCBsYWJlbCk7CiAgfTsKfQoKZnVuY3Rpb24gdHdlZXRJbnRlbnRUb0FuYWx5dGljcyhpbnRlbnRfZXZlbnQpIHsKICBpZiAoaW50ZW50X2V2ZW50KSB7CiAgICB2YXIgbGFiZWwgPSAidHdlZXQiOwogICAgcGFnZVRyYWNrZXIuX3RyYWNrRXZlbnQoJ3R3aXR0ZXJfd2ViX2ludGVudHMnLCBpbnRlbnRfZXZlbnQudHlwZSwgbGFiZWwpOwogIH07Cn0KCmZ1bmN0aW9uIGZhdkludGVudFRvQW5hbHl0aWNzKGludGVudF9ldmVudCkgewogIHR3ZWV0SW50ZW50VG9BbmFseXRpY3MoaW50ZW50X2V2ZW50KTsKfQoKZnVuY3Rpb24gcmV0d2VldEludGVudFRvQW5hbHl0aWNzKGludGVudF9ldmVudCkgewogIGlmIChpbnRlbnRfZXZlbnQpIHsKICAgIHZhciBsYWJlbCA9IGludGVudF9ldmVudC5kYXRhLnNvdXJjZV90d2VldF9pZDsKICAgIHBhZ2VUcmFja2VyLl90cmFja0V2ZW50KCd0d2l0dGVyX3dlYl9pbnRlbnRzJywgaW50ZW50X2V2ZW50LnR5cGUsIGxhYmVsKTsKICB9Owp9CgpmdW5jdGlvbiBmb2xsb3dJbnRlbnRUb0FuYWx5dGljcyhpbnRlbnRfZXZlbnQpIHsKICBpZiAoaW50ZW50X2V2ZW50KSB7CiAgICB2YXIgbGFiZWwgPSBpbnRlbnRfZXZlbnQuZGF0YS51c2VyX2lkICsgIiAoIiArIGludGVudF9ldmVudC5kYXRhLnNjcmVlbl9uYW1lICsgIikiOwogICAgcGFnZVRyYWNrZXIuX3RyYWNrRXZlbnQoJ3R3aXR0ZXJfd2ViX2ludGVudHMnLCBpbnRlbnRfZXZlbnQudHlwZSwgbGFiZWwpOwogIH07Cn0KIAogLy8gV2FpdCBmb3IgdGhlIGFzeW5jaHJvbm91cyByZXNvdXJjZXMgdG8gbG9hZAp0d3R0ci5yZWFkeShmdW5jdGlvbiAodHd0dHIpIHsKICAvLyBOb3cgYmluZCBvdXIgY3VzdG9tIGludGVudCBldmVudHMKICB0d3R0ci5ldmVudHMuYmluZCgnY2xpY2snLCAgICBjbGlja0V2ZW50VG9BbmFseXRpY3MpOwogIHR3dHRyLmV2ZW50cy5iaW5kKCd0d2VldCcsICAgIHR3ZWV0SW50ZW50VG9BbmFseXRpY3MpOwogIHR3dHRyLmV2ZW50cy5iaW5kKCdyZXR3ZWV0JywgIHJldHdlZXRJbnRlbnRUb0FuYWx5dGljcyk7CiAgdHd0dHIuZXZlbnRzLmJpbmQoJ2Zhdm9yaXRlJywgZmF2SW50ZW50VG9BbmFseXRpY3MpOwogIHR3dHRyLmV2ZW50cy5iaW5kKCdmb2xsb3cnLCAgIGZvbGxvd0ludGVudFRvQW5hbHl0aWNzKTsKfSk7
+</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">twitter-webintent-tracking.js</attribute>
+        <attribute name="notes" type="string">https://dev.twitter.com/docs/intents/events</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z135"></relationship>
+    </object>
+    <object type="SNIPPET" id="z135">
+        <attribute name="name" type="string">Twitter - Event tracking</attribute>
+        <attribute name="modified" type="date">368955540.65251100063323974609</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z128"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z134"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z130 z137 z133 z129"></relationship>
+    </object>
+    <object type="LIST" id="z136">
+        <attribute name="sort" type="int16">1</attribute>
+        <attribute name="name" type="string">Shapes</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z107"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z137">
+        <attribute name="name" type="string">Social</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z117 z113 z131 z135"></relationship>
+    </object>
+    <object type="TAG" id="z138">
+        <attribute name="name" type="string">Sociall</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="LIST" id="z139">
+        <attribute name="sort" type="int16">0</attribute>
+        <attribute name="name" type="string">Vagrant</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z140"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z108"></relationship>
+    </object>
+    <object type="FOLDER" id="z140">
+        <attribute name="sort" type="int16">1</attribute>
+        <attribute name="name" type="string">Dev Ops</attribute>
+        <attribute name="expanded" type="bool">1</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z139"></relationship>
+    </object>
+    <object type="FOLDER" id="z141">
+        <attribute name="sort" type="int16">0</attribute>
+        <attribute name="name" type="string">Social</attribute>
+        <attribute name="expanded" type="bool">1</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z106"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z128 z116"></relationship>
+    </object>
+    <object type="TAG" id="z142">
+        <attribute name="name" type="string">CSS Shape</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z145">
+        <attribute name="name" type="string">CSS</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+</database>
