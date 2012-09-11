@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>DA48577F-1FA9-41B3-909A-A54F3A1D856A</UUID>
-        <nextObjectID>183</nextObjectID>
+        <nextObjectID>209</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -81,7 +81,7 @@
         <attribute name="name" type="string">JavaScript</attribute>
         <attribute name="expanded" type="bool">1</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
-        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z141 z146"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z184 z185 z194 z204 z141"></relationship>
     </object>
     <object type="FOLDER" id="z107">
         <attribute name="sort" type="int16">2</attribute>
@@ -178,7 +178,7 @@ cycsCiAgICBsaW5rOiAnaHR0cDovL2RldmVsb3BlcnMuZmFjZWJvb2suY29tL2RvY3MvcmVmZXJlbmNl
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z107"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z206"></relationship>
     </object>
     <object type="LIST" id="z125">
         <attribute name="sort" type="int16">0</attribute>
@@ -239,7 +239,7 @@ bS93aWRnZXRzLmpzIj48L3NjcmlwdD4KCjxhIGhyZWY9Imh0dHBzOi8vdHdpdHRlci5jb20vaW50ZW50
     </object>
     <object type="TAG" id="z133">
         <attribute name="name" type="string">Tracking</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z135"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z191 z135"></relationship>
     </object>
     <object type="ASSET" id="z134">
         <attribute name="content" type="binary">Ly8gTG9nIGFueSBraW5kIG9mIFdlYiBJbnRlbnQgZXZlbnQgdG8gR29vZ2xlIEFuYWx5dGljcwov
@@ -290,7 +290,7 @@ LyBDYXRlZ29yeTogInR3aXR0ZXJfd2ViX2ludGVudHMiCi8vIEFjdGlvbjogSW50ZW50IEV2ZW50IFR5
         <relationship name="children" type="0/0" destination="FOLDER" idrefs="z139"></relationship>
     </object>
     <object type="FOLDER" id="z141">
-        <attribute name="sort" type="int16">0</attribute>
+        <attribute name="sort" type="int16">3</attribute>
         <attribute name="name" type="string">Social</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z106"></relationship>
@@ -302,14 +302,7 @@ LyBDYXRlZ29yeTogInR3aXR0ZXJfd2ViX2ludGVudHMiCi8vIEFjdGlvbjogSW50ZW50IEV2ZW50IFR5
     </object>
     <object type="TAG" id="z145">
         <attribute name="name" type="string">CSS</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
-    </object>
-    <object type="FOLDER" id="z146">
-        <attribute name="sort" type="int16">1</attribute>
-        <attribute name="name" type="string">Backbone</attribute>
-        <attribute name="expanded" type="bool">0</attribute>
-        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z106"></relationship>
-        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z206"></relationship>
     </object>
     <object type="LIST" id="z147">
         <attribute name="sort" type="int16">0</attribute>
@@ -317,7 +310,7 @@ LyBDYXRlZ29yeTogInR3aXR0ZXJfd2ViX2ludGVudHMiCi8vIEFjdGlvbjogSW50ZW50IEV2ZW50IFR5
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z150"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z166 z164 z171 z159"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z166 z164 z203 z171 z195 z159"></relationship>
     </object>
     <object type="FOLDER" id="z148">
         <attribute name="sort" type="int16">1</attribute>
@@ -338,7 +331,7 @@ LyBDYXRlZ29yeTogInR3aXR0ZXJfd2ViX2ludGVudHMiCi8vIEFjdGlvbjogSW50ZW50IEV2ZW50IFR5
         <attribute name="name" type="string">Django</attribute>
         <attribute name="expanded" type="bool">1</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z103"></relationship>
-        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z147 z153"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z197 z147 z153"></relationship>
     </object>
     <object type="ASSET" id="z151">
         <attribute name="sort" type="int32">-1</attribute>
@@ -366,7 +359,7 @@ YXNzIFAzUEhlYWRlcnMoQ3NyZlZpZXdNaWRkbGV3YXJlKToKICAgIGRlZiBwcm9jZXNzX3Jlc3BvbnNl
     </object>
     <object type="TAG" id="z154">
         <attribute name="name" type="string">Django</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z159 z181 z164 z166 z174 z171 z152"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z159 z181 z199 z164 z166 z174 z171 z152"></relationship>
     </object>
     <object type="TAG" id="z155">
         <attribute name="name" type="string">P3P</attribute>
@@ -524,5 +517,164 @@ b2IvbWFzdGVyL2RqYW5nb19qZW5raW5zL3Rhc2tzL3B5bGludC5yYwojCiMgdXNlIFBZTElOVFJDPSRQ
     <object type="TAG" id="z183">
         <attribute name="name" type="string">Django Jenkins</attribute>
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z181"></relationship>
+    </object>
+    <object type="FOLDER" id="z184">
+        <attribute name="sort" type="int16">0</attribute>
+        <attribute name="name" type="string">Backbone</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z106"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+    </object>
+    <object type="LIST" id="z185">
+        <attribute name="sort" type="int16">1</attribute>
+        <attribute name="name" type="string">General</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z106"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z188"></relationship>
+    </object>
+    <object type="TAG" id="z186">
+        <attribute name="name" type="string">Logic</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z188"></relationship>
+    </object>
+    <object type="TAG" id="z187">
+        <attribute name="name" type="string">JavaScript</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z191 z188"></relationship>
+    </object>
+    <object type="SNIPPET" id="z188">
+        <attribute name="name" type="string">JavaScript - Conditionals</attribute>
+        <attribute name="modified" type="date">369050976.85215902328491210938</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z185"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z189"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z186 z187"></relationship>
+    </object>
+    <object type="ASSET" id="z189">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">conditionals.js</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z188"></relationship>
+    </object>
+    <object type="SNIPPET" id="z191">
+        <attribute name="name" type="string">JavaScript - Google Analytics event tracking</attribute>
+        <attribute name="modified" type="date">369051253.24869900941848754883</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z194"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z192"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z193 z133 z187"></relationship>
+    </object>
+    <object type="ASSET" id="z192">
+        <attribute name="notes" type="string">ANALYTICS should be true or false based on environment.</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">tracking.js</attribute>
+        <attribute name="content" type="binary">CmZ1bmN0aW9uIHRyYWNrRXZlbnQoY2F0ZWdvcnksIGFjdGlvbiwgbGFiZWwpIHsKICAgIGlmICgh
+QU5BTFlUSUNTKSB7CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQogICAgX2dhcS5wdXNoKFsnX3RyYWNrRXZlbnQnLCBjYXRlZ29yeSwgYWN0aW9uLCBsYWJlbF0pOwp9Cg==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z191"></relationship>
+    </object>
+    <object type="TAG" id="z193">
+        <attribute name="name" type="string">Events</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z191"></relationship>
+    </object>
+    <object type="LIST" id="z194">
+        <attribute name="sort" type="int16">4</attribute>
+        <attribute name="name" type="string">Tracking</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z106"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z191"></relationship>
+    </object>
+    <object type="SNIPPET" id="z195">
+        <attribute name="name" type="string">Django - templatetags.py</attribute>
+        <attribute name="modified" type="date">369051427.34090697765350341797</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z147"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z196"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z196">
+        <attribute name="notes" type="string">contains _form_errors as an example</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">tags.py</attribute>
+        <attribute name="content" type="binary">ZnJvbSBkamFuZ28gaW1wb3J0IHRlbXBsYXRlCmltcG9ydCBzZXR0aW5ncwpyZWdpc3RlciA9IHRl
+bXBsYXRlLkxpYnJhcnkoKQoKCkByZWdpc3Rlci5pbmNsdXNpb25fdGFnKAogICAgJ19mb3JtX2Vycm9ycy5odG1sJywKICAgIHRha2VzX2NvbnRleHQ9VHJ1ZQopCmRlZiBmb3JtX2Vycm9ycyhjb250ZXh0LCBmb3JtKToKICAgIHJldHVybiB7J2Zvcm0nOiBmb3JtfQo=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z195"></relationship>
+    </object>
+    <object type="LIST" id="z197">
+        <attribute name="sort" type="int16">2</attribute>
+        <attribute name="name" type="string">templates</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z150"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z199"></relationship>
+    </object>
+    <object type="ASSET" id="z198">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">_form_error.html</attribute>
+        <attribute name="content" type="binary">eyUgaWYgZm9ybS5lcnJvcnMgJX0KCgkJeyUgZm9yIGUgaW4gZm9ybS5ub25fZmllbGRfZXJyb3Jz
+ICV9CgkJCXt7IGUgfX0KCQl7JSBlbmRmb3IgJX0KCQkKCQl7JSBmb3IgZmllbGQgaW4gZm9ybSAlfQoJCQl7JSBmb3IgZSBpbiBmaWVsZC5lcnJvcnMgJX0KCQkJCXt7IGZpZWxkLm5hbWUgfX0ge3sgZSB9fQoJCQl7JSBlbmRmb3IgJX0KCQl7JSBlbmRmb3IgJX0KCnslIGVuZGlmICV9
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z199"></relationship>
+    </object>
+    <object type="SNIPPET" id="z199">
+        <attribute name="name" type="string">Django - form error template</attribute>
+        <attribute name="modified" type="date">369051598.97706598043441772461</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z197"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z198"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z200 z154 z201"></relationship>
+    </object>
+    <object type="TAG" id="z200">
+        <attribute name="name" type="string">Template</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z199"></relationship>
+    </object>
+    <object type="TAG" id="z201">
+        <attribute name="name" type="string">Forms</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z199"></relationship>
+    </object>
+    <object type="ASSET" id="z202">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">forms.py</attribute>
+        <attribute name="content" type="binary">ZnJvbSBkamFuZ28gaW1wb3J0IGZvcm1zCmltcG9ydCBzZXR0aW5ncwoKTUlNRVRZUEVTID0gKAog
+ICAgJ2ltYWdlL3BuZycsCiAgICAnaW1hZ2UvanBnJywKICAgICdpbWFnZS9qcGVnJywKICAgICdpbWFnZS9wanBlZycsCiAgICAnaW1hZ2UvZ2lmJywKKQoKCmNsYXNzIEZvcm0oZm9ybXMuRm9ybSk6CiAgICBmaWVsZDEgPSBmb3Jtcy5DaGFyRmllbGQoKQogICAgZmllbGQyID0gZm9ybXMuSW1hZ2VGaWVsZChyZXF1aXJlZD1GYWxzZSkKCiAgICBkZWYgX19pbml0X18oc2VsZiwgKmFyZ3MsICoqa3dhcmdzKToKICAgICAgICBzdXBlcihGb3JtLCBzZWxmKS5fX2luaXRfXygqYXJncywgKiprd2FyZ3MpCgogICAgICAgIG5ld19sYWJlbHMgPSB7CiAgICAgICAgICAgICdmaWVsZDEnOiAnTGFiZWwgMScsCiAgICAgICAgICAgICdmaWVsZDInOiAnTGFiZWwgMicsCiAgICAgICAgfQoKICAgICAgICBmb3IgZmllbGQsIGxhYmVsIGluIG5ld19sYWJlbHMuaXRlcml0ZW1zKCk6CiAgICAgICAgICAgIHNlbGYuZmllbGRzW2ZpZWxkXS5sYWJlbCA9IGxhYmVsCgogICAgICAgIGV4dHJhX2Vycm9ycyA9IHsKICAgICAgICAgICAgJ2ZpZWxkMSc6IHsKICAgICAgICAgICAgICAgICdyZXF1aXJlZCc6ICdQbGVhc2UgZW50ZXIgYSB0d2VldCcsCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgICdmaWVsZDInOiB7CiAgICAgICAgICAgICAgICAncmVxdWlyZWQnOiAnTm8gcGhvdG8gc3VwcGxpZWQnLAogICAgICAgICAgICAgICAgJ2ludmFsaWQnOiAnSW52YWxpZCcsCiAgICAgICAgICAgICAgICAnaW52YWxpZF9pbWFnZSc6ICdJbnZhbGlkIGltYWdlJywKICAgICAgICAgICAgICAgICdlbXB0eSc6ICdlbXB0eSBpbWFnZScsCiAgICAgICAgICAgICAgICAnbWlzc2luZyc6ICdtaXNzaW5nIGltYWdlJywKICAgICAgICAgICAgfSwKICAgICAgICB9CgogICAgICAgIGZvciBmaWVsZCwgZXJyb3JzIGluIGV4dHJhX2Vycm9ycy5pdGVyaXRlbXMoKToKICAgICAgICAgICAgc2VsZi5maWVsZHNbZmllbGRdLmVycm9yX21lc3NhZ2VzLnVwZGF0ZShlcnJvcnMpCgogICAgZGVmIGNsZWFuKHNlbGYpOgogICAgICAgIHN1cGVyKEZvcm0sIHNlbGYpLmNsZWFuKCkKCiAgICAgICAgc2VsZi5jbGVhbl9maWVsZDEoKQogICAgICAgIHNlbGYuY2xlYW5fZmllbGQyKCkKCiAgICAgICAgcmV0dXJuIHNlbGYuY2xlYW5lZF9kYXRhCgogICAgZGVmIGNsZWFuX2ZpZWxkMShzZWxmKToKICAgICAgICBpZiAnZmllbGQxJyBpbiBzZWxmLmNsZWFuZWRfZGF0YToKICAgICAgICAgICAgZmllbGQxID0gc3RyKHNlbGYuY2xlYW5lZF9kYXRhWydmaWVsZDEnXSkKCiAgICAgICAgICAgIGlmIGZpZWxkMSA9PSAnJzoKICAgICAgICAgICAgICAgIHJhaXNlIGZvcm1zLlZhbGlkYXRpb25FcnJvcignUGxlYXNlIGVudGVyIGEgZmllbGQxIHZhbHVlJykKCiAgICAgICAgICAgIHJldHVybiBzZWxmLmNsZWFuZWRfZGF0YVsnZmllbGQxJ10KCiAgICBkZWYgY2xlYW5fZmllbGQyKHNlbGYpOgogICAgICAgIGZpZWxkMiA9IHNlbGYuY2xlYW5lZF9kYXRhLmdldCgnZmllbGQyJywgRmFsc2UpCiAgICAgICAgaWYgZmllbGQyOgogICAgICAgICAgICBpZiBub3QgcGhvdG8uY29udGVudF90eXBlIGluIE1JTUVUWVBFUzoKICAgICAgICAgICAgICAgIHJhaXNlIGZvcm1zLlZhbGlkYXRpb25FcnJvcignUGxlYXNlIGVudGVyIGEgdmFsaWQgaW1hZ2UgbXVzdCBiZSBlaXRoZXIgYSBqcGcsIGEgcG5nIG9yIGEgZ2lmJykKICAgICAgICAgICAgZWxpZiBmaWVsZDIuX3NpemUgPiAoMjA5NzE1Mik6CiAgICAgICAgICAgICAgICByYWlzZSBmb3Jtcy5WYWxpZGF0aW9uRXJyb3IoIlRoZSBwaG90byBpcyB0b28gbGFyZ2UsIGl0IG11c3QgYmUgbGVzcyB0aGFuIDJtYiIpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICByZXR1cm4gZmllbGQyCg==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z203"></relationship>
+    </object>
+    <object type="SNIPPET" id="z203">
+        <attribute name="name" type="string">Django - forms.py</attribute>
+        <attribute name="modified" type="date">369051626.42649602890014648438</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z147"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z202"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="LIST" id="z204">
+        <attribute name="sort" type="int16">2</attribute>
+        <attribute name="name" type="string">Jasmine</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z106"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="ASSET" id="z205">
+        <attribute name="notes" type="string">https://developer.mozilla.org/en-US/docs/CSS/border-radius</attribute>
+        <attribute name="content" type="binary">LnJhZGl1cyB7CiAgLXdlYmtpdC1ib3JkZXItcmFkaXVzOiA1cHg7CiAgLW1vei1ib3JkZXItcmFk
+aXVzOiA1cHg7CiAgLW1zLWJvcmRlci1yYWRpdXM6IDVweDsKICAtby1ib3JkZXItcmFkaXVzOiA1cHg7CiAgYm9yZGVyLXJhZGl1czogNXB4OwogIC13ZWJraXQtYmFja2dyb3VuZC1jbGlwOiBwYWRkaW5nLWJveDsKICAtbW96LWJhY2tncm91bmQtY2xpcDogcGFkZGluZzsKICAtbXMtYmFja2dyb3VuZC1jbGlwOiBwYWRkaW5nLWJveDsKICBiYWNrZ3JvdW5kLWNsaXA6IHBhZGRpbmctYm94Owp9
+</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">border-radius.css</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z206"></relationship>
+    </object>
+    <object type="SNIPPET" id="z206">
+        <attribute name="name" type="string">CSS - better border radius</attribute>
+        <attribute name="modified" type="date">369054470.56379199028015136719</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z124"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z205"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z145 z207"></relationship>
+    </object>
+    <object type="TAG" id="z207">
+        <attribute name="name" type="string">CSS3</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z206"></relationship>
     </object>
 </database>
