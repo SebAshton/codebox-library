@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>DA48577F-1FA9-41B3-909A-A54F3A1D856A</UUID>
-        <nextObjectID>145</nextObjectID>
+        <nextObjectID>183</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -60,14 +60,14 @@
         <attribute name="name" type="string">Python</attribute>
         <attribute name="expanded" type="bool">1</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
-        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z127 z123"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z127 z150"></relationship>
     </object>
     <object type="FOLDER" id="z104">
         <attribute name="sort" type="int16">5</attribute>
         <attribute name="name" type="string">Ruby</attribute>
         <attribute name="expanded" type="bool">1</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
-        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z126 z121 z122"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z126 z148 z149"></relationship>
     </object>
     <object type="FOLDER" id="z105">
         <attribute name="sort" type="int16">4</attribute>
@@ -81,14 +81,14 @@
         <attribute name="name" type="string">JavaScript</attribute>
         <attribute name="expanded" type="bool">1</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
-        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z141"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z141 z146"></relationship>
     </object>
     <object type="FOLDER" id="z107">
         <attribute name="sort" type="int16">2</attribute>
         <attribute name="name" type="string">CSS</attribute>
         <attribute name="expanded" type="bool">1</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
-        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z124 z136"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z136 z124"></relationship>
     </object>
     <object type="SNIPPET" id="z108">
         <attribute name="name" type="string">Vagrant - Automator Up</attribute>
@@ -172,30 +172,6 @@ cycsCiAgICBsaW5rOiAnaHR0cDovL2RldmVsb3BlcnMuZmFjZWJvb2suY29tL2RvY3MvcmVmZXJlbmNl
         <attribute name="name" type="string">Socail</attribute>
         <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
     </object>
-    <object type="LIST" id="z121">
-        <attribute name="sort" type="int16">1</attribute>
-        <attribute name="name" type="string">Rails</attribute>
-        <attribute name="expanded" type="bool">0</attribute>
-        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z104"></relationship>
-        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
-    </object>
-    <object type="LIST" id="z122">
-        <attribute name="sort" type="int16">0</attribute>
-        <attribute name="name" type="string">Sinatra</attribute>
-        <attribute name="expanded" type="bool">0</attribute>
-        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z104"></relationship>
-        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
-    </object>
-    <object type="LIST" id="z123">
-        <attribute name="sort" type="int16">0</attribute>
-        <attribute name="name" type="string">Django</attribute>
-        <attribute name="expanded" type="bool">0</attribute>
-        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z103"></relationship>
-        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
-    </object>
     <object type="LIST" id="z124">
         <attribute name="sort" type="int16">0</attribute>
         <attribute name="name" type="string">CSS3</attribute>
@@ -213,7 +189,7 @@ cycsCiAgICBsaW5rOiAnaHR0cDovL2RldmVsb3BlcnMuZmFjZWJvb2suY29tL2RvY3MvcmVmZXJlbmNl
         <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
     </object>
     <object type="LIST" id="z126">
-        <attribute name="sort" type="int16">2</attribute>
+        <attribute name="sort" type="int16">0</attribute>
         <attribute name="name" type="string">General</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z104"></relationship>
@@ -222,11 +198,11 @@ cycsCiAgICBsaW5rOiAnaHR0cDovL2RldmVsb3BlcnMuZmFjZWJvb2suY29tL2RvY3MvcmVmZXJlbmNl
     </object>
     <object type="LIST" id="z127">
         <attribute name="sort" type="int16">1</attribute>
-        <attribute name="name" type="string">Snippets</attribute>
+        <attribute name="name" type="string">General</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z103"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z181"></relationship>
     </object>
     <object type="LIST" id="z128">
         <attribute name="sort" type="int16">1</attribute>
@@ -316,7 +292,7 @@ LyBDYXRlZ29yeTogInR3aXR0ZXJfd2ViX2ludGVudHMiCi8vIEFjdGlvbjogSW50ZW50IEV2ZW50IFR5
     <object type="FOLDER" id="z141">
         <attribute name="sort" type="int16">0</attribute>
         <attribute name="name" type="string">Social</attribute>
-        <attribute name="expanded" type="bool">1</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z106"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER" idrefs="z128 z116"></relationship>
     </object>
@@ -327,5 +303,226 @@ LyBDYXRlZ29yeTogInR3aXR0ZXJfd2ViX2ludGVudHMiCi8vIEFjdGlvbjogSW50ZW50IEV2ZW50IFR5
     <object type="TAG" id="z145">
         <attribute name="name" type="string">CSS</attribute>
         <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="FOLDER" id="z146">
+        <attribute name="sort" type="int16">1</attribute>
+        <attribute name="name" type="string">Backbone</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z106"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+    </object>
+    <object type="LIST" id="z147">
+        <attribute name="sort" type="int16">0</attribute>
+        <attribute name="name" type="string">apps</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z150"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z166 z164 z171 z159"></relationship>
+    </object>
+    <object type="FOLDER" id="z148">
+        <attribute name="sort" type="int16">1</attribute>
+        <attribute name="name" type="string">Rails</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z104"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+    </object>
+    <object type="FOLDER" id="z149">
+        <attribute name="sort" type="int16">2</attribute>
+        <attribute name="name" type="string">Sinatra</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z104"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+    </object>
+    <object type="FOLDER" id="z150">
+        <attribute name="sort" type="int16">0</attribute>
+        <attribute name="name" type="string">Django</attribute>
+        <attribute name="expanded" type="bool">1</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z103"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z147 z153"></relationship>
+    </object>
+    <object type="ASSET" id="z151">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">p3p_header.py</attribute>
+        <attribute name="content" type="binary">ZnJvbSBkamFuZ28ubWlkZGxld2FyZS5jc3JmIGltcG9ydCBDc3JmVmlld01pZGRsZXdhcmUKCmNs
+YXNzIFAzUEhlYWRlcnMoQ3NyZlZpZXdNaWRkbGV3YXJlKToKICAgIGRlZiBwcm9jZXNzX3Jlc3BvbnNlKHNlbGYsIHJlcXVlc3QsIHJlc3BvbnNlKToKICAgICAgICByZXNwb25zZS5faGVhZGVyc1snUDNQJ10gPSAoJ1AzUCcsICdDUD0iSURDIERTUCBDT1IgQURNIERFVmkgVEFJaSBQU0EgUFNEIElWQWkgSVZEaSBDT05pIEhJUyBPVVIgSU5EIENOVCInKQogICAgICAgIHJldHVybiByZXNwb25zZQ==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z152"></relationship>
+    </object>
+    <object type="SNIPPET" id="z152">
+        <attribute name="name" type="string">Django - P3P Headers</attribute>
+        <attribute name="modified" type="date">369047361.69790798425674438477</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z153"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z151"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z154 z155 z156 z157"></relationship>
+    </object>
+    <object type="LIST" id="z153">
+        <attribute name="sort" type="int16">1</attribute>
+        <attribute name="name" type="string">middleware</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z150"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z152 z174"></relationship>
+    </object>
+    <object type="TAG" id="z154">
+        <attribute name="name" type="string">Django</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z159 z181 z164 z166 z174 z171 z152"></relationship>
+    </object>
+    <object type="TAG" id="z155">
+        <attribute name="name" type="string">P3P</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z152"></relationship>
+    </object>
+    <object type="TAG" id="z156">
+        <attribute name="name" type="string">HTTP</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z152"></relationship>
+    </object>
+    <object type="TAG" id="z157">
+        <attribute name="name" type="string">Python</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z152"></relationship>
+    </object>
+    <object type="ASSET" id="z158">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">models.py</attribute>
+        <attribute name="content" type="binary">ZnJvbSBkamFuZ28uY29yZS5jYWNoZSBpbXBvcnQgY2FjaGUKZnJvbSBkamFuZ28uZGIgaW1wb3J0
+IG1vZGVscwpmcm9tIGRqYW5nby5jb25mIGltcG9ydCBzZXR0aW5ncwoKY2xhc3MgRm9vYmFyKG1vZGVscy5Nb2RlbCk6
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z159"></relationship>
+    </object>
+    <object type="SNIPPET" id="z159">
+        <attribute name="name" type="string">Django - models.py</attribute>
+        <attribute name="modified" type="date">369047600.46846497058868408203</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z147"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z158"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z154 z160 z162 z161"></relationship>
+    </object>
+    <object type="TAG" id="z160">
+        <attribute name="name" type="string">Models</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z159"></relationship>
+    </object>
+    <object type="TAG" id="z161">
+        <attribute name="name" type="string"> Django app</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z159 z164 z166"></relationship>
+    </object>
+    <object type="TAG" id="z162">
+        <attribute name="name" type="string">MVC</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z159 z164"></relationship>
+    </object>
+    <object type="ASSET" id="z163">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">admin.py</attribute>
+        <attribute name="content" type="binary">ZnJvbSBkamFuZ28uY29udHJpYiBpbXBvcnQgYWRtaW4KZnJvbSBhcHBuYW1lLm1vZGVscyBpbXBv
+cnQgRm9vYmFyCgoKY2xhc3MgRm9vYmFyQWRtaW4oYWRtaW4uTW9kZWxBZG1pbik6CiAgICBsaXN0X2Rpc3BsYXkgPSAoJycsKQogICAgbGlzdF9maWx0ZXIgPSAoJycsKQogICAgTW9kZWwgPSBGb29iYXIKYWRtaW4uc2l0ZS5yZWdpc3RlcihGb29iYXIsIEZvb2JhckFkbWluKQo=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z164"></relationship>
+    </object>
+    <object type="SNIPPET" id="z164">
+        <attribute name="name" type="string">Django - admin.py</attribute>
+        <attribute name="modified" type="date">369047598.77035498619079589844</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z147"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z163"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z154 z162 z161 z165"></relationship>
+    </object>
+    <object type="TAG" id="z165">
+        <attribute name="name" type="string"> admin</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z164"></relationship>
+    </object>
+    <object type="SNIPPET" id="z166">
+        <attribute name="name" type="string">Django - tests.py</attribute>
+        <attribute name="modified" type="date">369047620.14661401510238647461</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z147"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z169"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z161 z154 z168"></relationship>
+    </object>
+    <object type="TAG" id="z167">
+        <attribute name="name" type="string">test</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z168">
+        <attribute name="name" type="string">Testing</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z166"></relationship>
+    </object>
+    <object type="ASSET" id="z169">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">tests.py</attribute>
+        <attribute name="content" type="binary">ZnJvbSBkamFuZ28udGVzdC5jbGllbnQgaW1wb3J0IENsaWVudApmcm9tIGRqYW5nby5jb3JlLnVy
+bHJlc29sdmVycyBpbXBvcnQgcmV2ZXJzZQpmcm9tIGRqYW5nby50ZXN0IGltcG9ydCBUZXN0Q2FzZQppbXBvcnQgc2V0dGluZ3MKCgpjbGFzcyBFeGFtcGxlVGVzdChUZXN0Q2FzZSk6CiAgICBkZWYgc2V0VXAoc2VsZik6CiAgICAgICAgc2VsZi5jbGllbnQgPSBDbGllbnQoKQoKICAgIGRlZiB0ZXN0X2V4YW1wbGUoc2VsZik6CiAgICAgICAgcmVzcG9uc2UgPSBzZWxmLmNsaWVudC5nZXQocmV2ZXJzZSgnaG9tZScpKQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWxzKHJlc3BvbnNlLnN0YXR1c19jb2RlLCAyMDApCg==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z166"></relationship>
+    </object>
+    <object type="ASSET" id="z170">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">views.py</attribute>
+        <attribute name="content" type="binary">ZnJvbSBkamFuZ28uY29uZiBpbXBvcnQgc2V0dGluZ3MKZnJvbSBkamFuZ28uc2hvcnRjdXRzIGlt
+cG9ydCByZW5kZXJfdG9fcmVzcG9uc2UKZnJvbSBkamFuZ28udGVtcGxhdGUgaW1wb3J0IFJlcXVlc3RDb250ZXh0CgoKZGVmIHZpZXcocmVxdWVzdCk6CiAgICByZXR1cm4gcmVuZGVyX3RvX3Jlc3BvbnNlKAogICAgICAgICd0ZW1wbGF0ZV9uYW1lci5obXRsJywgewogICAgICAgIH0sIGNvbnRleHRfaW5zdGFuY2U9UmVxdWVzdENvbnRleHQocmVxdWVzdCkKICAgICk=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z171"></relationship>
+    </object>
+    <object type="SNIPPET" id="z171">
+        <attribute name="name" type="string">Django - views.py</attribute>
+        <attribute name="modified" type="date">369047746.62136697769165039062</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z147"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z170"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z172 z154"></relationship>
+    </object>
+    <object type="TAG" id="z172">
+        <attribute name="name" type="string">Django app</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z171"></relationship>
+    </object>
+    <object type="ASSET" id="z173">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">context_processors.py</attribute>
+        <attribute name="content" type="binary">ZnJvbSBkamFuZ28uY29uZiBpbXBvcnQgc2V0dGluZ3MgYXMgc2V0dGluZ3NfY29uZgpmcm9tIGRq
+YW5nbyBpbXBvcnQgdGVtcGxhdGUKdGVtcGxhdGUuYWRkX3RvX2J1aWx0aW5zKCdhcHBuYW1lLnRlbXBsYXRldGFncy50YWdzZmlsZScpCgoKZGVmIHNldHRpbmdzKHJlcXVlc3QpOgogICAgcmV0dXJuIHsnc2V0dGluZ3MnOiBzZXR0aW5nc19jb25mfQo=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z174"></relationship>
+    </object>
+    <object type="SNIPPET" id="z174">
+        <attribute name="name" type="string">Django - context processors</attribute>
+        <attribute name="modified" type="date">369047931.27382600307464599609</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z153"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z173"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z154 z176 z175 z177"></relationship>
+    </object>
+    <object type="TAG" id="z175">
+        <attribute name="name" type="string">Django Middleware</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z174"></relationship>
+    </object>
+    <object type="TAG" id="z176">
+        <attribute name="name" type="string">Context</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z174"></relationship>
+    </object>
+    <object type="TAG" id="z177">
+        <attribute name="name" type="string">Middleware</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z174"></relationship>
+    </object>
+    <object type="TAG" id="z180">
+        <attribute name="name" type="string">PyLint</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z181"></relationship>
+    </object>
+    <object type="SNIPPET" id="z181">
+        <attribute name="name" type="string">pylintrc</attribute>
+        <attribute name="modified" type="date">369048095.82204699516296386719</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z127"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z182"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z183 z154 z180"></relationship>
+    </object>
+    <object type="ASSET" id="z182">
+        <attribute name="notes" type="string">save as [dot]pylintrc and run as in comments</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">pylintrc.txt</attribute>
+        <attribute name="content" type="binary">IyBUYWtlbiBmcm9tIGh0dHBzOi8vZ2l0aHViLmNvbS9rbW1idm5yL2RqYW5nby1qZW5raW5zL2Js
+b2IvbWFzdGVyL2RqYW5nb19qZW5raW5zL3Rhc2tzL3B5bGludC5yYwojCiMgdXNlIFBZTElOVFJDPSRQV0QvLnB5bGludHJjCiMgb3IKIyAtLXB5bGludC1yY2ZpbGU9LnB5bGludHJjIHRvIGRqYW5nbyBqZW5raW5zIGNtZAoKW01BU1RFUl0KcHJvZmlsZT1ubwpwZXJzaXN0ZW50PXllcwppZ25vcmU9bWlncmF0aW9ucwpjYWNoZS1zaXplPTUwMAoKW01FU1NBR0VTIENPTlRST0xdCiMgQzAxMTEgTWlzc2luZyBkb2NzdHJpbmcKIyBJMDAxMSBXYXJuaW5nIGxvY2FsbHkgc3VwcHJlc3NlZCB1c2luZyBkaXNhYmxlLW1zZwojIEkwMDEyIFdhcm5pbmcgbG9jYWxseSBzdXBwcmVzc2VkIHVzaW5nIGRpc2FibGUtbXNnCiMgVzA3MDQgRXhjZXB0IGRvZXNuJ3QgZG8gYW55dGhpbmcgVXNlZCB3aGVuIGFuIGV4Y2VwdCBjbGF1c2UgZG9lcyBub3RoaW5nIGJ1dCAicGFzcyIgYW5kIHRoZXJlIGlzIG5vICJlbHNlIiBjbGF1c2UKIyBXMDE0MiBVc2VkICogb3IgKiBtYWdpYyogVXNlZCB3aGVuIGEgZnVuY3Rpb24gb3IgbWV0aG9kIGlzIGNhbGxlZCB1c2luZyAqYXJncyBvciAqKmt3YXJncyB0byBkaXNwYXRjaCBhcmd1bWVudHMuCiMgVzAyMTIgQWNjZXNzIHRvIGEgcHJvdGVjdGVkIG1lbWJlciAlcyBvZiBhIGNsaWVudCBjbGFzcwojIFcwMjMyIENsYXNzIGhhcyBubyBfX2luaXRfXyBtZXRob2QgVXNlZCB3aGVuIGEgY2xhc3MgaGFzIG5vIF9faW5pdF9fIG1ldGhvZCwgbmVpdGhlciBpdHMgcGFyZW50IGNsYXNzZXMuCiMgVzA2MTMgVW51c2VkIGFyZ3VtZW50ICVyIFVzZWQgd2hlbiBhIGZ1bmN0aW9uIG9yIG1ldGhvZCBhcmd1bWVudCBpcyBub3QgdXNlZC4KIyBXMDcwMiBObyBleGNlcHRpb24ncyB0eXBlIHNwZWNpZmllZCBVc2VkIHdoZW4gYW4gZXhjZXB0IGNsYXVzZSBkb2Vzbid0IHNwZWNpZnkgZXhjZXB0aW9ucyB0eXBlIHRvIGNhdGNoLgojIFIwMjAxIE1ldGhvZCBjb3VsZCBiZSBhIGZ1bmN0aW9uCiMgUjA5MDQgTWV0aG9kcyBpbiB0ZXN0IGFyZW4ndCBwdWJsaWMKIyBFMTEwMyBmYWxzZSBwb3NpdGl2ZQpkaXNhYmxlPUMwMTExLEkwMDExLEkwMDEyLFcwNzA0LFcwMTQyLFcwMjEyLFcwMjMyLFcwNjEzLFcwNzAyLFIwMjAxLEUxMTAzLFIwOTA0CgpbUkVQT1JUU10Kb3V0cHV0LWZvcm1hdD1wYXJzZWFibGUKaW5jbHVkZS1pZHM9eWVzCgoKW0JBU0lDXQpuby1kb2NzdHJpbmctcmd4PV9fLipfX3xfLioKY2xhc3Mtcmd4PVtBLVpfXVthLXpBLVowLTlfXSskCmZ1bmN0aW9uLXJneD1bYS16QV9dW2EtekEtWjAtOV9dezIsNzB9JAptZXRob2Qtcmd4PVthLXpfXVthLXpBLVowLTlfXXsyLDcwfSQKY29uc3Qtcmd4PSgoW0EtWl9dW0EtWjAtOV9dKil8KFthLXpfXVthLXowLTlfXSopfChfXy4qX18pfHJlZ2lzdGVyfHVybHBhdHRlcm5zKSQKZ29vZC1uYW1lcz1fLGksaixrLGUscXMscGssc2V0VXAsdGVhckRvd24KCltUWVBFQ0hFQ0tdCgojIFRlbGxzIHdoZXRoZXIgbWlzc2luZyBtZW1iZXJzIGFjY2Vzc2VkIGluIG1peGluIGNsYXNzIHNob3VsZCBiZSBpZ25vcmVkLiBBCiMgbWl4aW4gY2xhc3MgaXMgZGV0ZWN0ZWQgaWYgaXRzIG5hbWUgZW5kcyB3aXRoICJtaXhpbiIgKGNhc2UgaW5zZW5zaXRpdmUpLgppZ25vcmUtbWl4aW4tbWVtYmVycz15ZXMKCiMgTGlzdCBvZiBjbGFzc2VzIG5hbWVzIGZvciB3aGljaCBtZW1iZXIgYXR0cmlidXRlcyBzaG91bGQgbm90IGJlIGNoZWNrZWQKIyAodXNlZnVsIGZvciBjbGFzc2VzIHdpdGggYXR0cmlidXRlcyBkeW5hbWljYWxseSBzZXQpLgppZ25vcmVkLWNsYXNzZXM9U1FMT2JqZWN0CgojIFdoZW4gem9wZSBtb2RlIGlzIGFjdGl2YXRlZCwgYWRkIGEgcHJlZGVmaW5lZCBzZXQgb2YgWm9wZSBhY3F1aXJlZCBhdHRyaWJ1dGVzCiMgdG8gZ2VuZXJhdGVkLW1lbWJlcnMuCnpvcGU9bm8KCiMgTGlzdCBvZiBtZW1iZXJzIHdoaWNoIGFyZSBzZXQgZHluYW1pY2FsbHkgYW5kIG1pc3NlZCBieSBweWxpbnQgaW5mZXJlbmNlCiMgc3lzdGVtLCBhbmQgc28gc2hvdWxkbid0IHRyaWdnZXIgRTAyMDEgd2hlbiBhY2Nlc3NlZC4KZ2VuZXJhdGVkLW1lbWJlcnM9b2JqZWN0cyxEb2VzTm90RXhpc3QsaWQscGssX21ldGEsYmFzZV9maWVsZHMsY29udGV4dAoKIyBMaXN0IG9mIG1ldGhvZCBuYW1lcyB1c2VkIHRvIGRlY2xhcmUgKGkuZS4gYXNzaWduKSBpbnN0YW5jZSBhdHRyaWJ1dGVzCmRlZmluaW5nLWF0dHItbWV0aG9kcz1fX2luaXRfXyxfX25ld19fLHNldFVwCgoKW1ZBUklBQkxFU10KaW5pdC1pbXBvcnQ9bm8KZHVtbXktdmFyaWFibGVzLXJneD1ffGR1bW15CgpbU0lNSUxBUklUSUVTXQptaW4tc2ltaWxhcml0eS1saW5lcz02Cmlnbm9yZS1jb21tZW50cz15ZXMKaWdub3JlLWRvY3N0cmluZ3M9eWVzCgoKW01JU0NFTExBTkVPVVNdCm5vdGVzPUZJWE1FLFhYWCxUT0RPCgoKW0ZPUk1BVF0KbWF4LWxpbmUtbGVuZ3RoPTE2MAptYXgtbW9kdWxlLWxpbmVzPTUwMAppbmRlbnQtc3RyaW5nPScgICAgJwoKCltERVNJR05dCm1heC1hcmdzPTEwCm1heC1sb2NhbHM9MTUKbWF4LXJldHVybnM9NgptYXgtYnJhbmNocz0xMgptYXgtc3RhdGVtZW50cz01MAptYXgtcGFyZW50cz03Cm1heC1hdHRyaWJ1dGVzPTcKbWluLXB1YmxpYy1tZXRob2RzPTAKbWF4LXB1YmxpYy1tZXRob2RzPTUw
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z181"></relationship>
+    </object>
+    <object type="TAG" id="z183">
+        <attribute name="name" type="string">Django Jenkins</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z181"></relationship>
     </object>
 </database>
